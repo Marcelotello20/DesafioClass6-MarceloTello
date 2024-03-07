@@ -80,7 +80,7 @@ class ProductManager {
         const product = await products.find(product => product.id === productId);
 
         try {
-            console.log(`El Producto de id ${productId} fue encontrado `)
+            console.log(`Buscando el producto de id ${productId}`)
             return product;
         } catch (e) {
             console.error(e);
